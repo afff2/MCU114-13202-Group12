@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FastFoodOrderingWizard</string>
+    <string name="select_main_meal">選主餐</string>
+    <string name="select_side_dish">選副餐</string>
+    <string name="select_drink">選飲料</string>
+    <string name="confirm_order">確認訂單</string>
+    <string name="order_status">目前尚未選擇餐點</string>
+    <string name="order_content">訂單內容</string>
+    <string name="submit_order">送出訂單</string>
+</resources>

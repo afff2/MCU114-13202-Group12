@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RadioGroup android:id="@+id/radioGroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbFries" android:text="薯條" />
+        <RadioButton android:id="@+id/rbSalad" android:text="沙拉" />
+        <RadioButton android:id="@+id/rbNuggets" android:text="雞塊" />
+    </RadioGroup>
+
+    <Button android:id="@+id/btnSelect" android:text="選擇完成" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
