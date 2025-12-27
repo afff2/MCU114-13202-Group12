@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp"
+    android:background="#FAF5FF"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="意見回饋"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="#333333"
+    android:layout_marginTop="24dp"
+    android:layout_marginBottom="24dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="0"
+        android:layout_marginBottom="24dp"
+        android:progressTint="#FFC107"
+        android:secondaryProgressTint="#E0E0E0"/>
+
+    <EditText
+        android:id="@+id/et_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:hint="請輸入您的寶貴意見..."
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_submit_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="送出回饋"
+        android:backgroundTint="#673AB7"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="24dp"/>
+
+</LinearLayout>
